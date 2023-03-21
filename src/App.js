@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
 
-  //const url = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=810b2fb3501d5e255b028d8a32f496e6"
+  //const url = "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=810b2fb3501d5e255b028d8a32f496e6"
 
   return (
     <div className="App">
@@ -21,13 +21,16 @@ function App() {
         </div>
         <div className="bottom">
           <div className="feels">
-            <p>10 Degrees</p>
+            <p className="bold">10 Degrees</p>
+            <p>Feels like</p>
           </div>
           <div className="humidity">
-            <p>10 Degrees</p>
+            <p className="bold">10 Degrees</p>
+            <p>Humidity</p>
           </div>
           <div className="wind">
-            <p>10 Degrees</p>
+            <p className="bold">10 Degrees</p>
+            <p>Wind</p>
           </div>
         </div>
       </div>
