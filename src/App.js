@@ -13,7 +13,7 @@ function App() {
             <p>Glasgow</p>
           </div>
           <div className="temperature">
-            <p>10 Degrees</p>
+            <h1>10 Degrees</h1>
           </div>
           <div className="description">
             <p>Cloudy</p>
